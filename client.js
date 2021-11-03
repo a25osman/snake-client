@@ -17,8 +17,6 @@ const connect = function () {
     conn.write('Name: 2sz');
   });
 
-  // interpret incoming data as text 
-
   return conn;
 };
 
