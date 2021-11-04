@@ -18,6 +18,10 @@ const setupInput = function (conn) {
       connection.write("Move: left")
     } else if (key === "d") {
       connection.write("Move: right")
+    } else if (key === "p") {
+      connection.write("Say: Whats upp");
+    } else if (key === "o") {
+      connection.write("Say: Crashhq");
     }
   });
   return stdin;
